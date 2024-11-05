@@ -1,0 +1,58 @@
+-- Criação dos registros da tabela fornecedor 
+
+INSERT INTO fornecedor (cnpj, nome, email, telefone, endereco)
+VALUES
+    ('12.345.678/0001-90', 'Distribuidora de Alimentos A', 'contato@alimentosa.com', '(11) 98765-4321', 'Rua das Laranjeiras, 100, São Paulo - SP'),
+    ('98.765.432/0001-12', 'Fornecedora de Grãos B', 'vendas@graosb.com', '(21) 99876-5432', 'Avenida das Américas, 2000, Rio de Janeiro - RJ'),
+    ('23.456.789/0001-34', 'Indústria de Laticínios C', 'sac@laticiniosc.com', '(31) 91234-5678', 'Rua dos Pampas, 300, Belo Horizonte - MG'),
+    ('34.567.890/0001-56', 'Distribuidora Hortifruti D', 'suporte@hortifrutid.com', '(41) 99876-5432', 'Avenida Paraná, 50, Curitiba - PR'),
+    ('45.678.901/0001-78', 'Produtos Naturais E S.A.', 'contato@naturalse.com', '(51) 98765-1234', 'Rua Bento Gonçalves, 1500, Porto Alegre - RS'),
+    ('56.789.012/0001-90', 'Padaria e Confeitaria F', 'info@confeitariaf.com', '(61) 91234-5678', 'Setor Bancário Sul, Brasília - DF'),
+    ('67.890.123/0001-12', 'Alimentos Congelados G', 'atendimento@congeladosg.com', '(71) 99876-5432', 'Avenida Tancredo Neves, 900, Salvador - BA'),
+    ('78.901.234/0001-34', 'Distribuidora de Carnes H', 'comercial@carnesh.com', '(85) 98765-4321', 'Rua Senador Pompeu, 670, Fortaleza - CE'),
+    ('89.012.345/0001-56', 'Fornecedora de Bebidas I', 'contato@bebidasi.com', '(31) 91234-1234', 'Avenida Afonso Pena, 2100, Belo Horizonte - MG'),
+    ('90.123.456/0001-78', 'Frutas e Legumes J', 'sac@frutaselegumesj.com', '(27) 98765-4321', 'Rua da Moda, 400, Vitória - ES'),
+    ('01.234.567/0001-89', 'Distribuidora de Cereais K', 'vendas@cereaisk.com', '(11) 91234-5678', 'Rua Santa Ifigênia, 55, São Paulo - SP'),
+    ('12.345.678/0001-00', 'Soluções em Alimentos L', 'info@alimentosl.com', '(19) 99876-1234', 'Avenida das Indústrias, 600, Campinas - SP'),
+    ('23.456.789/0001-11', 'Agronegócio Alimentos M', 'sac@alimentosm.com', '(65) 98765-4321', 'Rodovia BR-364, Cuiabá - MT'),
+    ('34.567.890/0001-22', 'Comercial de Produtos Orgânicos N', 'contato@organicosn.com', '(31) 91234-5678', 'Avenida Amazonas, 300, Belo Horizonte - MG'),
+    ('45.678.901/0001-33', 'Fornecedora de Temperos e Especiarias O', 'comercial@temperoso.com', '(21) 98765-1234', 'Rua do Mercado, 450, Rio de Janeiro - RJ'),
+    ('56.789.012/0001-44', 'Distribuidora de Queijos P', 'vendas@queijosp.com', '(71) 99876-1234', 'Rua dos Mares, 800, Salvador - BA'),
+    ('67.890.123/0001-55', 'Produtos de Panificação Q', 'sac@panificacaoq.com', '(11) 91234-5678', 'Rua do Trigo, 220, São Paulo - SP'),
+    ('78.901.234/0001-66', 'Bebidas Naturais R', 'contato@bebidasr.com', '(48) 99876-5432', 'Avenida Beira Mar, 150, Florianópolis - SC'),
+    ('89.012.345/0001-77', 'Fornecedor de Polpas S', 'info@polpass.com', '(62) 98765-1234', 'Avenida Goiás, 670, Goiânia - GO'),
+    ('90.123.456/0001-88', 'Fornecedora de Produtos Veganos T', 'contato@veganost.com', '(47) 91234-5678', 'Rua da Natureza, 890, Joinville - SC'),
+    ('01.234.567/0001-91', 'Grãos do Brasil U', 'contato@graosdobrasilu.com', '(11) 98765-4567', 'Rua da Agricultura, 200, Campinas - SP'),
+    ('12.345.678/0001-92', 'Bebidas Tropicais V', 'comercial@bebidastropicaisv.com', '(83) 91234-5678', 'Avenida Brasil, 123, João Pessoa - PB'),
+    ('23.456.789/0001-93', 'Distribuidora de Chocolates W', 'vendas@chocolatesw.com', '(19) 98765-4321', 'Rua da Cacau, 550, Ribeirão Preto - SP'),
+    ('34.567.890/0001-94', 'Produtos Orgânicos X', 'contato@organicosx.com', '(47) 99876-1234', 'Avenida do Verde, 1000, Blumenau - SC'),
+    ('45.678.901/0001-95', 'Cereais do Norte Y', 'info@cereaisdonortey.com', '(69) 98765-4567', 'Rua dos Fazendeiros, 600, Porto Velho - RO'),
+    ('56.789.012/0001-96', 'Verduras e Legumes Z', 'sac@verdurasz.com', '(21) 91234-6789', 'Avenida Rural, 750, Rio de Janeiro - RJ'),
+    ('67.890.123/0001-97', 'Distribuidora de Alimentos AA', 'atendimento@alimentosaa.com', '(91) 99876-4321', 'Travessa dos Alimentos, 400, Belém - PA'),
+    ('78.901.234/0001-98', 'Fornecedor de Carnes AB', 'comercial@carnesab.com', '(95) 98765-5678', 'Rua do Gado, 210, Boa Vista - RR'),
+    ('89.012.345/0001-99', 'Laticínios do Sul AC', 'contato@laticiniosac.com', '(51) 91234-5678', 'Rua dos Laticínios, 300, Porto Alegre - RS'),
+    ('90.123.456/0001-00', 'Hortifruti ABC', 'suporte@hortifrutiabc.com', '(45) 98765-4321', 'Rua da Colheita, 100, Cascavel - PR'),
+    ('01.234.567/0002-10', 'Indústria de Produtos Alimentícios AD', 'vendas@industriaad.com', '(31) 99876-5432', 'Rua do Progresso, 100, Belo Horizonte - MG'),
+    ('12.345.678/0002-11', 'Distribuidora de Café AE', 'contato@cafeae.com', '(11) 91234-5678', 'Rua dos Cafés, 45, Campinas - SP'),
+    ('23.456.789/0002-12', 'Fornecedora de Pães AF', 'vendas@paesaf.com', '(21) 98765-4321', 'Avenida Panificação, 200, Rio de Janeiro - RJ'),
+    ('34.567.890/0002-13', 'Agronegócio do Cerrado AG', 'contato@agronogocioag.com', '(61) 99876-5432', 'Rodovia BR-020, Brasília - DF'),
+    ('45.678.901/0002-14', 'Frutas do Campo AH', 'sac@frutasah.com', '(71) 91234-5678', 'Rua das Plantas, 300, Salvador - BA'),
+    ('56.789.012/0002-15', 'Produtos Naturais AI', 'atendimento@naturaisai.com', '(85) 98765-5432', 'Avenida da Natureza, 400, Fortaleza - CE'),
+    ('67.890.123/0002-16', 'Distribuidora de Bebidas AJ', 'contato@bebidasaj.com', '(95) 91234-6789', 'Rua das Bebidas, 500, Boa Vista - RR'),
+    ('78.901.234/0002-17', 'Fornecedor de Polpas AK', 'vendas@polpasak.com', '(92) 98765-6789', 'Avenida da Fruta, 450, Manaus - AM'),
+    ('89.012.345/0002-18', 'Cereais do Centro-Oeste AL', 'sac@cereaisal.com', '(67) 91234-5432', 'Rua dos Cereais, 900, Campo Grande - MS'),
+    ('90.123.456/0002-19', 'Fornecedor de Carnes AM', 'info@carnesam.com', '(47) 98765-6789', 'Avenida do Gado, 300, Joinville - SC'),
+    ('01.234.567/0002-20', 'Frutas da Estação AN', 'suporte@frutasdaestacaoan.com', '(51) 99876-5678', 'Rua das Frutas, 500, Porto Alegre - RS'),
+    ('12.345.678/0002-21', 'Distribuidora de Congelados AO', 'contato@congeladosao.com', '(13) 98765-5432', 'Rua do Frio, 800, Santos - SP'),
+    ('23.456.789/0002-22', 'Produtos Regionais AP', 'info@produtosregionaisap.com', '(27) 91234-5678', 'Avenida Regional, 600, Vitória - ES'),
+    ('34.567.890/0002-23', 'Fornecedor de Verduras AQ', 'vendas@verdurasaq.com', '(19) 98765-6789', 'Rua Verde, 100, Campinas - SP'),
+    ('45.678.901/0002-24', 'Alimentos Orgânicos AR', 'contato@organicosar.com', '(31) 91234-5432', 'Rua da Terra, 900, Belo Horizonte - MG'),
+    ('56.789.012/0002-25', 'Distribuidora de Frutos AS', 'atendimento@frutosas.com', '(11) 98765-4321', 'Rua dos Frutos, 1234, São Paulo - SP');
+
+INSERT INTO fornecedor (cnpj, nome, email, telefone, endereco)
+VALUES
+('56.789.012/0002-25', 'Distribuidora de Frutos AS', 'atendimento@frutosas.com', '(11) 98765-4321', 'Rua dos Frutos, 1234, São Paulo - SP'),
+('23.456.789/0002-22', 'Produtos Regionais AP', 'info@produtosregionaisap.com', '(27) 91234-5678', 'Avenida Regional, 600, Vitória - ES'),
+('01.234.567/0002-10', 'Indústria de Produtos Alimentícios AD', 'vendas@industriaad.com', '(31) 99876-5432', 'Rua do Progresso, 100, Belo Horizonte - MG'),
+('78.901.234/0001-66', 'Bebidas Naturais R', 'contato@bebidasr.com', '(48) 99876-5432', 'Avenida Beira Mar, 150, Florianópolis - SC');
+
